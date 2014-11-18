@@ -1,0 +1,164 @@
+﻿/* 
+    Document   : utils
+    Created on : Feb 4, 2013, 1:01:41 PM
+    Author     : Paulo Chang
+    Description:
+        Utility classes.
+*/
+
+/* Cursor
+*/ 
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Float
+*/
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-clear {
+  clear: both;
+}
+
+/* Borders, Padding & Margin
+*/
+
+.border-right {
+  border-right: 1px solid #ccc;
+}
+
+.border-left {
+  border-left: 1px solid #ccc;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.border-top {
+  border-top: 1px solid #ccc;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-all {
+    border: 1px solid #ccc;
+}
+
+.border-rounded {
+    border-radius: 4px;
+}
+
+/* Display
+*/
+
+.display-block {
+  display: block;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-none {
+  display: none !important;
+}
+
+/* Position
+*/
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+/* Margin
+*/
+
+.margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-left {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+/* Color
+*/
+
+.color-yellow {
+  color: #fbb161;
+}
+
+/* Overflow
+*/
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Align */
+.txt-center {
+  text-align: center;
+}
+
+/* default html properties*/
+
+* {
+    background-color: #fdfdfd;
+}
+
+header {
+    padding: 1em;
+}
+
+input {
+    padding: 0.25em;
+    background-color: #fff;
+    width: 100%;
+}
+
+button {
+    padding: 0.25em 0.75em;
+    background-color: #eee;
+}
+
+main {
+    padding: 1em;;
+}
+
+li {
+    padding: 0.5em 0.75em;
+    margin-bottom: 0.5em;
+}
+
+label {
+    width: 100%;
+}
+
+label:hover {
+    cursor: pointer;
+}

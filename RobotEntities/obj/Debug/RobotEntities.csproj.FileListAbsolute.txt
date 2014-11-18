@@ -1,0 +1,4 @@
+C:\Users\Paulo\documents\visual studio 2013\Projects\AuthenticatedRobot\RobotEntities\bin\Debug\RobotEntities.dll
+C:\Users\Paulo\documents\visual studio 2013\Projects\AuthenticatedRobot\RobotEntities\bin\Debug\RobotEntities.pdb
+C:\Users\Paulo\documents\visual studio 2013\Projects\AuthenticatedRobot\RobotEntities\obj\Debug\RobotEntities.dll
+C:\Users\Paulo\documents\visual studio 2013\Projects\AuthenticatedRobot\RobotEntities\obj\Debug\RobotEntities.pdb

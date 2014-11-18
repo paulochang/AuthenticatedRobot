@@ -1,0 +1,31 @@
+﻿@model AuthenticatedRobot.Models.LogOnModel
+
+@{
+    if (Request.IsAuthenticated)
+    {
+        <div class="minicolumn">
+            U bent ingelogd als: @User.Identity.Name
+        </div>
+        <div class="minicolumn miniborder">
+            Click here to log out!
+        </div>
+    }
+    else
+    {
+        <div class="minicolumn">
+            @using (Html.BeginForm("_LogOn", "Account", new { ReturnUrl = Request.QueryString["ReturlUrl"] }))
+            {
+                @Html.AntiForgeryToken()
+                <span style="color:red">@Html.ValidationSummary(true, "Incorrecte gebruikersnaam en/of wachtwoord.")</span>
+                @Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })
+                @Html.TextBoxFor(model => model.Email, new { @class = "border-all border-rounded" })
+                @Html.ValidationMessageFor(model => model.Email)
+
+                @Html.PasswordFor(model => model.Password, new { @class = "border-all border-rounded" })
+                @Html.ValidationMessageFor(model => model.Password)
+
+                <button class="border-all border-rounded" type="submit">Entrar</button>
+            }
+        </div>
+    }
+}
